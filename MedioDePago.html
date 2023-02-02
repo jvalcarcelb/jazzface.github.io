@@ -20,9 +20,49 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
             gtag('config', 'G-RKHW33TGK2');
         </script>
+        <style>
+            .background-video {
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+            }
+
+            .content-layer {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(255, 255, 255, 0.7);
+                z-index: 1;
+            }
+
+            video {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 100%;
+                min-height: 100%;
+            }
+        </style>
         
     </head>
-    <body>       
+    <body>     
+        
+        <!--    ---------------------------- -->
+        <div class="background-video">
+            <video width="320" height="240" controls autoplay loop poster >
+                <source src="WEB-INF/production ID_4932672.mp4" type="video/mp4">
+                Your browser does not support the <code>video</code> tag.
+            </video>
+        </div>
+        <!--    ---------------------------- -->
         <h1>Medio de pago</h1>        
         <nav>
             <ul class="menuSuperior">
@@ -36,8 +76,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <footer>
             <nav>
                 <ul>
-                    <img src="../../src/java/imagenes/LogoWS.png" width="220px" height="220px"alt=""/>
-                    <img src="../../src/java/imagenes/Logo Yape.png" width="220px" height="220px"alt=""/>
+                    <img src="../../src/java/imagenes/LogoWS.png" width="220px" height="120px"alt=""/>
+                    <img src="../../src/java/imagenes/Logo Yape.png" width="220px" height="180px"alt=""/>
                     <hr>
                     <h2>997360418</h2>
                     <hr>

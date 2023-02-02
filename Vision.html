@@ -22,9 +22,51 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             gtag('config', 'G-RKHW33TGK2');
         </script>
         
+        <style>
+            .background-video {
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+            }
+
+            .content-layer {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(255, 255, 255, 0.7);
+                z-index: 1;
+            }
+
+            video {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 100%;
+                min-height: 100%;
+            }
+        </style>
         
     </head>
+    
+  
     <body>
+        
+          <!--    ---------------------------- -->
+        <div class="background-video">
+            <video width="320" height="240" controls autoplay loop >
+                <source src="../../../Itaya/web/WEB-INF/production ID_4932672.mp4" type="video/mp4">
+                Your browser does not support the <code>video</code> tag.
+            </video>
+        </div>
+        <!--    ---------------------------- -->
         <!--    <link href="../Fondo.css" rel="stylesheet" type="text/css"/> -->
         <h1>Vision</h1>        
         <nav>
@@ -43,6 +85,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 clientes. Brindar un servicio excepcional y educar a nuestros clientes sobre los beneficios 
                 de los productos naturales y los aromas esenciales.</h3>
         </nav>
+        <br> <br> <br> <br> <br>
         <footer>
             <nav>
                 <ul>
