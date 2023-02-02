@@ -1,0 +1,39 @@
+body {
+    width:70%;
+    margin: auto;
+    background-color: aqua;
+    border: dotted;
+
+    background: url(../WEB-INF/ conversion1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+@media screen and (min-width: 600px) {
+    body {
+    }
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menuSuperior {
+    font-size: xx-large;
+}
+
+li {
+    text-align: left;
+}
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
