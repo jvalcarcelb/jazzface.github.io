@@ -2,6 +2,7 @@ body {
     width:70%;
     margin: auto;
     background-color: black;
+    
   
 
     background: url(../WEB-INF/ conversion1.jpg);
@@ -29,7 +30,7 @@ nav li {
 }
 
 li {
-    text-align: left;
+    text-align: center;
 }
 
   img {
